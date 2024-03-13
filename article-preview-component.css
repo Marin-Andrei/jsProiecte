@@ -1,0 +1,149 @@
+body {
+  background-color: hsl(210, 46%, 95%);
+}
+
+.main-container {
+  position: relative;
+  z-index: 1;
+
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 33vh;
+  width: 50vw;
+
+  display: flex;
+  contain: content;
+
+  background-color: #fff;
+  border-radius: 15px;
+  border: 1px solid white;
+
+  box-shadow: -5px 30px 30px 15px hsl(207, 32%, 89%);
+}
+
+#img-div {
+  width: 40%;
+}
+
+#drawers {
+  width: 125%;
+  height: 100%;
+}
+
+#text-div {
+  background-color: #fff;
+  width: 60%;
+}
+
+h2 {
+  color: hsl(217, 19%, 35%);
+
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#description {
+  color: hsl(214, 17%, 51%);
+
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 25px;
+}
+
+#personal {
+  margin-left: 40px;
+  margin-right: 40px;
+
+  display: flex;
+}
+#profile {
+  border-radius: 100%;
+  margin-right: 15px;
+  width: 50px;
+  height: 50px;
+}
+
+.paragraph-adjustment {
+  margin: 5px;
+}
+
+#name {
+  color: hsl(217, 19%, 35%);
+  font-weight: 700;
+}
+
+#date {
+  color: hsl(214, 17%, 51%);
+}
+
+#about {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+#redirect {
+  margin-top: 5px;
+
+  border-radius: 100%;
+  border: transparent;
+  background-color: hsl(214, 17%, 51%);
+
+  width: 40px;
+  height: 40px;
+
+  cursor: pointer;
+}
+
+#rectangle {
+  position: relative;
+  z-index: 0;
+
+  width: 250px;
+  height: 50px;
+  background-color: hsl(217, 19%, 35%);
+  border-radius: 10px;
+
+  translate: -195px -10px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  visibility: hidden;
+}
+
+#triangle {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid hsl(217, 19%, 35%);
+  visibility: hidden;
+
+  translate: -340px 25px;
+}
+
+.icon {
+  width: 22px;
+  height: 22px;
+}
+
+h4 {
+  letter-spacing: 3px;
+  color: hsl(212, 23%, 69%);
+  font-weight: 100;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+#icon-pinterest {
+  margin-right: 20px;
+}
